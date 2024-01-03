@@ -1,0 +1,259 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto; 
+  }
+
+ .hero_area {
+    /* Add other styles for the hero area */
+    background-image: url('images/abstract.jpg');
+    /* Add other background properties as needed */
+  }
+
+
+  .hero_area .hero_bg_box {
+   visibility: visible; 
+  }
+
+  .slider_section {
+    padding: 45px 0 75px 0;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .about_section .img-box {
+    margin-bottom: 45px;
+  }
+  .developer-profiles {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 13em;
+  }
+
+  .profile-card {
+    flex: 0 1 calc(100% - 20px);
+  }
+}
+
+@media (max-width: 850px) {
+  .developer-profiles {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 17em;
+  }
+
+  .profile-card {
+    flex: 0 1 calc(100% - 20px);
+  }
+ 
+
+}
+
+
+@media (max-width: 576px) {
+  .header_section .header_top .contact_nav a span {
+    display: none;
+  }
+
+
+  .client_section .client_container {
+    width: 100%;
+  }
+
+  .client_section .box {
+    margin: 0;
+  }
+
+  .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .client_section .owl-carousel .owl-nav .owl-prev,
+  .client_section .owl-carousel .owl-nav .owl-next {
+    position: unset;
+    margin: 0 2.5px;
+  }
+}
+
+@media (max-width: 490px) {
+  /* Home Section */
+  .slider_section .row {
+    margin-top: 5em;
+  }
+
+  .slider_section .detail-box h1, h2,p{
+    text-align: center;
+  }
+
+  .slider_section .detail-box .btn-box {
+    margin-left: 5.5em;
+  }
+
+  .slider_section .detail-box h1{
+    font-size: 1.5em;
+  }
+
+  /* Home Image */
+.slider_section .img-box img {
+  width: 100%;
+  height: 270px;
+  box-shadow: rgba(0, 0, 0, 0.445) 0px 3px 8px;
+}
+
+  .track_section form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .track_section form input {
+    width: 100%;
+  }
+
+  .track_section form button {
+    padding: 10px 60px;
+    margin-top: 10px;
+  }
+
+  .developer-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    margin-left: 1em;
+  }
+
+  .profile-card {
+    flex: 0 1 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-left: 1.5em;
+  }
+
+  .profile-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: fill;
+    margin-bottom: 15px;
+  }
+  /* Team Section */
+  /* .team_container{
+    margin-left: 1em;
+  }
+
+  .team_section .team_container .box {
+    height: 480px;
+  } */
+  /* Info Section */
+
+
+}
+
+@media (max-width: 420px) {
+  .service_section .box {
+    flex-direction: column;
+  }
+
+  .service_section .box .img-box {
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 378px) {
+  .developer-profiles{
+    margin-left: 0.2em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1170px;
+  }
+  .footer_section{
+    height: 100%;
+    width: 100%;
+    margin-top: 4em;
+  }
+  .developer-profiles{
+  margin-left: 4em;
+   padding: 4em;
+  }
+
+}
+
+@media (min-width: 1148px) {
+  .container {
+    max-width: 1170px;
+  }
+  .footer_section{
+    height: 100%;
+    width: 100%;
+    margin-top: 4em;
+  }
+  .developer-profiles{
+  margin-left: 10em;
+   padding: 4em;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1170px;
+  }
+  .footer_section{
+    height: 100%;
+    width: 100%;
+    margin-top: 10em;
+  }
+  .developer-profiles{
+    margin-left: 15em;
+     padding: 4em;
+    }
+}
+
+@media (min-width: 1336px) {
+  .developer-profiles{
+    margin-left: 15em;
+     padding: 4em;
+    }
+}
+
+
+@media (min-width: 1728px) {
+  .container {
+    max-width: 1170px;
+  }
+  .footer_section{
+    height: 100%;
+    width: 100%;
+    margin-top: 10em;
+  }
+  .developer-profiles{
+    margin-left: 25em;
+     padding: 4em;
+    }
+
+}
